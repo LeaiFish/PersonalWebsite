@@ -125,7 +125,10 @@ const GlobalStyle = createGlobalStyle`
       padding: 150px 50px;
     }
     @media (max-width: 480px) {
-      padding: 125px 25px;
+      padding: 100px 20px;
+    }
+    @media (max-width: 360px) {
+      padding: 80px 15px;
     }
 
     &.fillHeight {
@@ -171,12 +174,12 @@ const GlobalStyle = createGlobalStyle`
 
   .big-heading {
     margin: 0;
-    font-size: clamp(40px, 8vw, 80px);
+    font-size: clamp(28px, 8vw, 80px);
   }
 
   .medium-heading {
     margin: 0;
-    font-size: clamp(40px, 8vw, 60px);
+    font-size: clamp(24px, 8vw, 60px);
   }
 
   .numbered-heading {

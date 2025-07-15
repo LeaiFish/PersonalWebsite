@@ -1,0 +1,19 @@
+
+> v4@1.0.0 start
+> npm run develop
+
+
+> v4@1.0.0 develop
+> gatsby develop
+
+Error: ETIMEDOUT: connection timed out, read
+    at Object.readFileSync (node:fs:453:20)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1397:18)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (/Users/lea/Desktop/my-portfolio/node_modules/renderkid/node_modules/css-select/lib/pseudo-selectors/filters.js:7:35)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)

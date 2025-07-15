@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run develop:*)",
+      "Bash(lsof:*)",
+      "Bash(node:*)",
+      "Bash(npm:*)",
+      "Bash(npx http-server:*)",
+      "Bash(nvm install:*)",
+      "Bash(brew install:*)",
+      "Bash(mkdir:*)",
+      "Bash(export NVM_DIR=\"$HOME/.nvm\")",
+      "Bash([ -s \"/opt/homebrew/opt/nvm/nvm.sh\" ])",
+      "Bash(. \"/opt/homebrew/opt/nvm/nvm.sh\")",
+      "Bash(nvm use:*)",
+      "Bash(open http://localhost:8000)",
+      "Bash(curl:*)",
+      "Bash(kill:*)",
+      "Bash(timeout 120 npm run develop)",
+      "Bash(gtimeout 120 npm run develop)"
+    ],
+    "deny": []
+  }
+}

@@ -28,6 +28,11 @@ const StyledText = styled.div`
     overflow: hidden;
     list-style: none;
 
+    @media (max-width: 360px) {
+      grid-template-columns: repeat(2, minmax(120px, 1fr));
+      grid-gap: 0 5px;
+    }
+
     li {
       position: relative;
       margin-bottom: 10px;
@@ -73,7 +78,7 @@ const StyledPic = styled.div`
       }
 
       .img {
-        filter: none;
+        filter: brightness(100%);
         mix-blend-mode: normal;
       }
     }
@@ -81,8 +86,8 @@ const StyledPic = styled.div`
     .img {
       position: relative;
       border-radius: var(--border-radius);
-      mix-blend-mode: multiply;
-      filter: grayscale(100%) contrast(1);
+      mix-blend-mode: normal;
+      filter: brightness(80%);
       transition: var(--transition);
     }
 
@@ -100,8 +105,8 @@ const StyledPic = styled.div`
     &:before {
       top: 0;
       left: 0;
-      background-color: var(--navy);
-      mix-blend-mode: screen;
+      background-color: transparent;  // 改为透明
+      mix-blend-mode: normal;         // 改为normal
     }
 
     &:after {
@@ -125,7 +130,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'TypeScript', 'React', 'Eleventy', 'Node.js', 'WordPress'];
+  const skills = ['Python', 'Excel', 'Bloomberg Terminal', 'Wind Terminal', 'Data Analysis', 'Financial Modeling'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -135,33 +140,27 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Brittany and I enjoy creating things that live on the internet. My
-              interest in web development started back in 2012 when I decided to try editing custom
-              Tumblr themes — turns out hacking together a custom reblog button taught me a lot
-              about HTML &amp; CSS!
+              Hello! My name is Junyi and I enjoy analyzing financial markets and uncovering investment insights. My
+    interest in finance started during my undergraduate studies when I discovered the fascinating world
+    of equity research and how data can tell compelling stories about companies and markets.
             </p>
 
             <p>
-              Fast-forward to today, and I’ve had the privilege of working at{' '}
-              <a href="https://us.mullenlowe.com/">an advertising agency</a>,{' '}
-              <a href="https://starry.com/">a start-up</a>,{' '}
-              <a href="https://www.apple.com/">a huge corporation</a>, and{' '}
-              <a href="https://scout.camd.northeastern.edu/">a student-led design studio</a>. My
-              main focus these days is building accessible, inclusive products and digital
-              experiences at <a href="https://upstatement.com/">Upstatement</a> for a variety of
-              clients.
+              Fast-forward to today, and I've had the privilege of working as an{' '}
+    <a href="#">equity research intern</a> at a financial institution, participating in exchange programs at{' '}
+    <a href="https://www.waseda.jp/top/en/">Waseda University in Japan</a> and{' '}
+    <a href="https://www.cbs.dk/en">Copenhagen Business School in Denmark</a>. My
+    main focus these days is conducting industry research, building financial models, and 
+    developing data-driven investment recommendations.
             </p>
 
             <p>
-              I also recently{' '}
-              <a href="https://www.newline.co/courses/build-a-spotify-connected-app">
-                launched a course
-              </a>{' '}
-              that covers everything you need to build a web app with the Spotify API using Node
-              &amp; React.
+              I'm passionate about combining traditional financial analysis with modern data science techniques
+    to generate actionable insights. My international experience has given me a unique perspective on
+    global markets and cross-cultural business practices.
             </p>
 
-            <p>Here are a few technologies I’ve been working with recently:</p>
+            <p>Here are a few skills I’ve been working with recently:</p>
           </div>
 
           <ul className="skills-list">
