@@ -2,14 +2,14 @@
 date: '2'
 title: 'Quantitative Finance'
 cover: './demo.png'
-github: 'https://github.com/LeaiFish'
-# external: 'https://spotify-profile.herokuapp.com/'
+external: 'https://github.com/LeaiFish'
+cta: '/quantitative-finance'
 tech:
   - Python
   - Pandas
   - Jupyter Notebook
   - Statsmodels
-  - 
+  -
   - Matpotlib
   - CSMAR API
 ---

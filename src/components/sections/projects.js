@@ -182,6 +182,7 @@ const Projects = () => {
               tech
               github
               external
+              internal
             }
             html
           }
@@ -213,7 +214,7 @@ const Projects = () => {
 
   const projectInner = node => {
     const { frontmatter, html } = node;
-    const { github, external, title, tech } = frontmatter;
+    const { github, external, internal, title, tech } = frontmatter;
 
     return (
       <div className="project-inner">
@@ -238,11 +239,19 @@ const Projects = () => {
                   <Icon name="External" />
                 </a>
               )}
+              {internal && (
+                <a href={internal} aria-label="Internal Link" className="internal">
+                  <Icon name="Internal" />
+                </a>
+              )}
             </div>
           </div>
 
           <h3 className="project-title">
-            <a href={external} target={external.startsWith('http') ? "_blank" : "_self"} rel={external.startsWith('http') ? "noreferrer" : ""}>
+            <a
+              href={internal || external}
+              target={(internal || external)?.startsWith('http') ? '_blank' : '_self'}
+              rel={(internal || external)?.startsWith('http') ? 'noreferrer' : ''}>
               {title}
             </a>
           </h3>
@@ -264,7 +273,7 @@ const Projects = () => {
   };
 
   return (
-    <StyledProjectsSection>
+    <StyledProjectsSection id="explorations">
       <h2 ref={revealTitle}>Other Noteworthy Explorations</h2>
 
       <Link className="inline-link archive-link" to="/archive" ref={revealArchiveLink}>

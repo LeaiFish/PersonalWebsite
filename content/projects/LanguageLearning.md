@@ -1,8 +1,8 @@
 ---
 date: '2025-07-15'
 title: 'Language Learning'
-# github: 'https://github.com/bchiang7/halcyon-site'
 external: 'http://xhslink.com/m/6WvXM85l4SA'
+internal: '/language-learning'
 tech:
   - Chinese
   - English

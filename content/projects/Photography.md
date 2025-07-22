@@ -2,7 +2,7 @@
 date: '2025-07-14'
 title: 'Photography'
 # github: 'https://github.com/bchiang7/halcyon-site'
-external: '/photography'
+internal: '/photography'
 tech:
   - Sony
   - Canon

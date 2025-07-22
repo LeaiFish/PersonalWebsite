@@ -2,8 +2,8 @@
 date: '1'
 title: 'Equity Research'
 cover: './halcyon.png'
-# github: 'https://github.com/bchiang7/halcyon-site'
-# external: 'https://halcyon-theme.netlify.com/'
+external: 'https://mp.weixin.qq.com/s/Pv5NIkP6dBPXYtGkKbjc_g'
+cta: '/equity-research'
 tech:
   - Bloomberg
   - Capital IQ

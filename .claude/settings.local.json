@@ -17,7 +17,8 @@
       "Bash(curl:*)",
       "Bash(kill:*)",
       "Bash(timeout 120 npm run develop)",
-      "Bash(gtimeout 120 npm run develop)"
+      "Bash(gtimeout 120 npm run develop)",
+      "Bash(git add:*)"
     ],
     "deny": []
   }

@@ -9,3 +9,6 @@ package-lock.json
 .DS_Store
 
 .vscode/
+
+# Personal information - do not commit
+WEBSITE_OPTIMIZATION_CONTEXT.md

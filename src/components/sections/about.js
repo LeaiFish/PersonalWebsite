@@ -105,8 +105,8 @@ const StyledPic = styled.div`
     &:before {
       top: 0;
       left: 0;
-      background-color: transparent;  // 改为透明
-      mix-blend-mode: normal;         // 改为normal
+      background-color: transparent; // 改为透明
+      mix-blend-mode: normal; // 改为normal
     }
 
     &:after {
@@ -130,7 +130,17 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['Python', 'Excel', 'Bloomberg Terminal', 'Wind Terminal', 'Data Analysis', 'Financial Modeling'];
+  const skills = [
+    'Python',
+    'AI Tools',
+    'Excel Automation',
+    'Bloomberg Terminal',
+    'Wind Terminal',
+    'Financial Modeling',
+    'Data Analysis',
+    'Git',
+    'Web Development',
+  ];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -140,27 +150,42 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Junyi and I enjoy analyzing financial markets and uncovering investment insights. My
-    interest in finance started during my undergraduate studies when I discovered the fascinating world
-    of equity research and how data can tell compelling stories about companies and markets.
+              Hello! My name is Junyi and I'm passionate about finding elegant solutions to complex
+              problems. I enjoy working at the intersection of finance and technology, where I can
+              combine analytical thinking with practical innovation.
             </p>
 
             <p>
-              Fast-forward to today, and I've had the privilege of working as an{' '}
-    <a href="#">equity research intern</a> at a financial institution, participating in exchange programs at{' '}
-    <a href="https://www.waseda.jp/top/en/">Waseda University in Japan</a> and{' '}
-    <a href="https://www.cbs.dk/en">Copenhagen Business School in Denmark</a>. My
-    main focus these days is conducting industry research, building financial models, and 
-    developing data-driven investment recommendations.
+              During my equity research internships at <a href="#jobs">securities firms</a>, I
+              worked on industry analysis and investment reports while discovering my talent for
+              process optimization. I developed automation tools that significantly improved our
+              team's data processing efficiency and earned recognition from supervisors. These
+              experiences showed me how technology can enhance traditional financial analysis.
             </p>
 
             <p>
-              I'm passionate about combining traditional financial analysis with modern data science techniques
-    to generate actionable insights. My international experience has given me a unique perspective on
-    global markets and cross-cultural business practices.
+              Recently, I've been exploring my{' '}
+              <a href="#explorations">interests and expanding my capabilities</a>. I've learned new
+              languages, experimented with various AI tools to enhance my programming skills, and
+              built projects like{' '}
+              <a
+                href="https://github.com/LeaiFish/PersonalWebsite"
+                target="_blank"
+                rel="noopener noreferrer">
+                this personal website
+              </a>
+              . I'm following my curiosity to develop technical abilities while staying connected to
+              emerging technologies and trends.
             </p>
 
-            <p>Here are a few skills I’ve been working with recently:</p>
+            <p>
+              I thrive in environments where I can observe, understand the full picture, and then
+              contribute meaningful improvements. Whether it's data analysis, process optimization,
+              or learning new technologies, I'm motivated by the opportunity to make work more
+              efficient and impactful.
+            </p>
+
+            <p>Here are a few technologies I've been working with recently:</p>
           </div>
 
           <ul className="skills-list">

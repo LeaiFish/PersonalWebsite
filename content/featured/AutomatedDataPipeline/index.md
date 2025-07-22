@@ -2,8 +2,8 @@
 date: '3'
 title: 'Automated Data Pipeline'
 cover: './course-card.png'
-# external: 'https://www.newline.co/courses/build-a-spotify-connected-app'
-cta: 'https://github.com/LeaiFish'
+external: 'https://github.com/LeaiFish'
+cta: '/automated-data-pipeline'
 tech:
   - Python
   - Pandas
@@ -11,5 +11,4 @@ tech:
   - API
 ---
 
-During my internship in Sealand, I built a Python script for Automated integration of market intelligence files (Sensor Tower, etc.) into internal Excel database and Powerpoint presentation. <span style="color: var(--green);">Reduced manual processing time by 90%,</span> and received recognition bonus. 
-The tool remained in use after my departure, continuing to improve team efficiency.
+During my internship at Sealand Securities, I identified a critical workflow inefficiency and developed an AI-powered solution that revolutionized our data processing approach. This innovative Python automation tool seamlessly integrated market intelligence data from multiple sources into our internal systems, featuring dynamic chart generation and intelligent data formatting. <span style="color: var(--green);">Reduced manual processing time by 90%,</span> earned recognition bonus, and became a permanent part of the team's workflow—continuing to enhance efficiency long after my departure.

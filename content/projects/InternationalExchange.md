@@ -1,7 +1,7 @@
 ---
 date: '2025-07-11'
 title: 'International Exchange'
-external: '#'
+internal: '/international-exchange'
 tech:
   - International Experience
   - Cross-cultural Learning
@@ -9,4 +9,4 @@ tech:
 showInProjects: true
 ---
 
-Exchange programs at Waseda University (Tokyo) and Copenhagen Business School, gaining global perspectives on finance and business.
+Exchange programs at Waseda University (Tokyo) and Copenhagen Business School that sparked a deep curiosity for understanding diverse cultures and global perspectives. This experience transformed my approach to learning about the world, leading to systematic exploration of international affairs, regional studies, and cross-cultural understanding through both formal education and self-directed learning.

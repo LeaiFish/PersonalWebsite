@@ -61,18 +61,12 @@ const Hero = () => {
 
   const one = <h1>Hi, my name is</h1>;
   const two = <h2 className="big-heading">Junyi Xu.</h2>;
-  const three = <h3 className="big-heading">I analyze financial markets and build insights.</h3>;
+  const three = <h3 className="big-heading">I bring curiosity to finance.</h3>;
   const four = (
     <>
       <p>
-        I'm a finance professional specializing in equity research and industry analysis. 
-      With international experience from exchange programs in Japan and Denmark, 
-      I focus on developing data-driven insights for investment decisions and market research. You can reach me
-        at{' '}
-        <a href="https://www.linkedin.com/in/junyixu/" target="_blank" rel="noreferrer">
-          Linkedin
-        </a>
-        .
+        I'm a finance professional with a passion for innovative problem-solving. I enjoy exploring
+        emerging technologies and turning complex challenges into elegant solutions.
       </p>
     </>
   );
