@@ -283,7 +283,7 @@ const QuantitativeFinancePage = () => {
   }, []);
 
   return (
-    <Layout location={location}>
+    <Layout>
       <Head title="Quantitative Finance Research" />
       <StyledProjectPage>
         <div className="project-header" ref={revealContainer}>

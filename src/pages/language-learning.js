@@ -406,7 +406,7 @@ const LanguageLearningPage = () => {
   }, []);
 
   return (
-    <Layout location={location}>
+    <Layout>
       <Head title="Language Learning Journey" />
       <StyledProjectPage>
         <div className="project-header" ref={revealContainer}>

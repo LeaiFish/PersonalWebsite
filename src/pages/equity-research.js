@@ -349,7 +349,7 @@ const EquityResearchPage = () => {
   }, []);
 
   return (
-    <Layout location={location}>
+    <Layout>
       <Head title="Equity Research Reports" />
       <StyledProjectPage>
         <div className="project-header" ref={revealContainer}>

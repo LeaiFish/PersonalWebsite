@@ -274,7 +274,7 @@ const AutomatedDataPipelinePage = () => {
   }, []);
 
   return (
-    <Layout location={location}>
+    <Layout>
       <Head title="Automated Data Pipeline" />
       <StyledProjectPage>
         <div className="project-header" ref={revealContainer}>
