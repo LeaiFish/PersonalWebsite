@@ -1,4 +1,5 @@
 import React, { useEffect, useRef } from 'react';
+import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import { Layout, Head } from '@components';
 import { Icon } from '@components/icons';
@@ -336,7 +337,7 @@ const StyledProjectPage = styled.main`
   }
 `;
 
-const EquityResearchPage = () => {
+const EquityResearchPage = ({ location }) => {
   const revealContainer = useRef(null);
   const prefersReducedMotion = usePrefersReducedMotion();
 
@@ -349,7 +350,7 @@ const EquityResearchPage = () => {
   }, []);
 
   return (
-    <Layout>
+    <Layout location={location}>
       <Head title="Equity Research Reports" />
       <StyledProjectPage>
         <div className="project-header" ref={revealContainer}>
@@ -601,6 +602,10 @@ const EquityResearchPage = () => {
       </StyledProjectPage>
     </Layout>
   );
+};
+
+EquityResearchPage.propTypes = {
+  location: PropTypes.object,
 };
 
 export default EquityResearchPage;

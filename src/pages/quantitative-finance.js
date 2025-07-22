@@ -1,4 +1,5 @@
 import React, { useEffect, useRef } from 'react';
+import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import { Layout, Head } from '@components';
 import { Icon } from '@components/icons';
@@ -270,7 +271,7 @@ const StyledProjectPage = styled.main`
   }
 `;
 
-const QuantitativeFinancePage = () => {
+const QuantitativeFinancePage = ({ location }) => {
   const revealContainer = useRef(null);
   const prefersReducedMotion = usePrefersReducedMotion();
 
@@ -283,7 +284,7 @@ const QuantitativeFinancePage = () => {
   }, []);
 
   return (
-    <Layout>
+    <Layout location={location}>
       <Head title="Quantitative Finance Research" />
       <StyledProjectPage>
         <div className="project-header" ref={revealContainer}>
@@ -518,6 +519,10 @@ const QuantitativeFinancePage = () => {
       </StyledProjectPage>
     </Layout>
   );
+};
+
+QuantitativeFinancePage.propTypes = {
+  location: PropTypes.object,
 };
 
 export default QuantitativeFinancePage;

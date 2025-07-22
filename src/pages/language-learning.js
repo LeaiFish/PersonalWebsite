@@ -1,4 +1,5 @@
 import React, { useEffect, useRef } from 'react';
+import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import { Layout, Head } from '@components';
 import { Icon } from '@components/icons';
@@ -393,7 +394,7 @@ const StyledProjectPage = styled.main`
   }
 `;
 
-const LanguageLearningPage = () => {
+const LanguageLearningPage = ({ location }) => {
   const revealContainer = useRef(null);
   const prefersReducedMotion = usePrefersReducedMotion();
 
@@ -406,7 +407,7 @@ const LanguageLearningPage = () => {
   }, []);
 
   return (
-    <Layout>
+    <Layout location={location}>
       <Head title="Language Learning Journey" />
       <StyledProjectPage>
         <div className="project-header" ref={revealContainer}>
@@ -684,6 +685,10 @@ const LanguageLearningPage = () => {
       </StyledProjectPage>
     </Layout>
   );
+};
+
+LanguageLearningPage.propTypes = {
+  location: PropTypes.object,
 };
 
 export default LanguageLearningPage;

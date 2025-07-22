@@ -11,8 +11,21 @@ const StyledContent = styled.div`
 `;
 
 const Layout = ({ children, location }) => {
-  const isHome = location.pathname === '/';
-  const [isLoading, setIsLoading] = useState(isHome);
+  // 安全的location访问，支持SSR
+  const initialIsHome = location?.pathname === '/' || false;
+  const [isHome, setIsHome] = useState(initialIsHome);
+  const [isLoading, setIsLoading] = useState(initialIsHome);
+
+  // 客户端状态同步
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      const currentIsHome = window.location.pathname === '/';
+      if (currentIsHome !== isHome) {
+        setIsHome(currentIsHome);
+        setIsLoading(currentIsHome);
+      }
+    }
+  }, [isHome]);
 
   // Sets target="_blank" rel="noopener noreferrer" on external links
   const handleExternalLinks = () => {
