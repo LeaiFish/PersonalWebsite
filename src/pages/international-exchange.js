@@ -334,16 +334,66 @@ const InternationalExchangePage = () => {
             <p>
               At Waseda University, I deliberately chose to step outside my comfort zone by
               enrolling in a course on{' '}
-              <span className="highlight">Middle East Reform and Development</span>. Having had
-              minimal prior exposure to Middle Eastern politics and economics, this course
-              challenged me to grapple with complex regional dynamics, historical contexts, and
-              contemporary development challenges.
+              <span className="highlight">
+                <a
+                  href="https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=210GO32300012024210GO3230021&pLng=en"
+                  target="_blank"
+                  rel="noopener noreferrer">
+                  Middle East Reform and Development
+                </a>
+              </span>{' '}
+              taught by{' '}
+              <a
+                href="https://w-rdb.waseda.jp/html/100001423_en.html"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ color: 'inherit', textDecoration: 'none' }}>
+                Professor Matthew Barry Gray
+              </a>
+              . Having had minimal prior exposure to Middle Eastern politics and economics, this
+              course challenged me to grapple with complex regional dynamics, historical contexts,
+              and contemporary development challenges.
             </p>
             <p>
               This experience taught me the value of intellectual humility and the importance of
               approaching unfamiliar topics with genuine curiosity rather than preconceptions. The
               analytical frameworks I developed for understanding regional economic and political
               dynamics have enhanced my ability to approach complex problems systematically.
+            </p>
+          </div>
+
+          <div className="section">
+            <h2>Linguistic Theory: English Syntax</h2>
+            <p>
+              During my exchange at Waseda University, I challenged myself further by enrolling in{' '}
+              <span className="highlight">
+                <a
+                  href="https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=210CO31000012025210CO3100021&pLng=en"
+                  target="_blank"
+                  rel="noopener noreferrer">
+                  English Syntax
+                </a>
+              </span>
+              , an advanced linguistics course taught by{' '}
+              <a
+                href="https://www.waseda.jp/fire/sils/news/2023/04/25/16209/"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ color: 'inherit', textDecoration: 'none' }}>
+                Professor Namai Kenichi
+              </a>{' '}
+              that delved deep into Chomskyan transformational grammar theory and the structural
+              foundations of language. Achieving an <strong>A+ grade</strong> in this demanding
+              course represented not just academic success, but a fundamental shift in how I
+              understand language learning and cognitive processing.
+            </p>
+            <p>
+              The course provided rigorous training in syntactic analysis, transformational rules,
+              and universal grammar principles. This metalinguistic awareness—understanding how
+              language systems work at a structural level—has proven invaluable for accelerating my
+              acquisition of new languages and enhancing cross-cultural communication capabilities.
+              The analytical thinking required to parse complex syntactic structures has also
+              strengthened my systematic approach to problem-solving in other domains.
             </p>
           </div>
 

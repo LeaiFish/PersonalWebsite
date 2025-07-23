@@ -1,5 +1,5 @@
 ---
-date: '2025-07-11'
+date: '2025-07-20'
 title: 'International Exchange'
 internal: '/international-exchange'
 tech:
@@ -9,4 +9,4 @@ tech:
 showInProjects: true
 ---
 
-Exchange programs at Waseda University (Tokyo) and Copenhagen Business School that sparked a deep curiosity for understanding diverse cultures and global perspectives. This experience transformed my approach to learning about the world, leading to systematic exploration of international affairs, regional studies, and cross-cultural understanding through both formal education and self-directed learning.
+Exchange programs at Waseda University (Tokyo) and Copenhagen Business School sparked my curiosity for diverse cultures and transformed my worldview.

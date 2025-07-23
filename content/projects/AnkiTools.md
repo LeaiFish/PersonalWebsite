@@ -1,7 +1,7 @@
 ---
-date: '2025-07-16'
-title: 'Anki Language Learning Tools'
-github: ''
+date: '2025-07-18'
+title: 'Anki Tools'
+github: 'https://github.com/LeaiFish'
 external: ''
 tech:
   - Python
@@ -11,4 +11,4 @@ tech:
 showInProjects: true
 ---
 
-A collection of custom tools and add-ons developed to enhance the Anki spaced repetition system for language learning. These tools automate card creation, improve study workflows, and provide advanced analytics for tracking learning progress across multiple languages.
+A collection of custom tools and add-ons developed to enhance the Anki spaced repetition system for language learning and comprehensive reading.

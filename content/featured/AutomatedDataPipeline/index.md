@@ -11,4 +11,4 @@ tech:
   - API
 ---
 
-During my internship at Sealand Securities, I identified a critical workflow inefficiency and developed an AI-powered solution that revolutionized our data processing approach. This innovative Python automation tool seamlessly integrated market intelligence data from multiple sources into our internal systems, featuring dynamic chart generation and intelligent data formatting. <span style="color: var(--green);">Reduced manual processing time by 90%,</span> earned recognition bonus, and became a permanent part of the team's workflow—continuing to enhance efficiency long after my departure.
+I identified that my team was spending 6+ hours weekly on manual market intelligence data processing at Sealand Securities. To address this inefficiency, I developed a Python automation tool that integrated multiple APIs with Excel databases and automated chart generation. The solution <span style="color: var(--green);">reduced processing time by 90%</span>, earned me recognition bonuses, and became a permanent part of the team's workflow.

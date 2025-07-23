@@ -1,5 +1,5 @@
 ---
-date: '2025-07-14'
+date: '2025-07-19'
 title: 'Photography'
 # github: 'https://github.com/bchiang7/halcyon-site'
 internal: '/photography'

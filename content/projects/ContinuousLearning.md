@@ -1,5 +1,5 @@
 ---
-date: '2025-07-12'
+date: '2025-07-16'
 title: 'Continuous Learning'
 external: '#'
 tech:

@@ -12,4 +12,4 @@ tech:
   - Financial Modeling
 ---
 
-I drafted two independent user research reports on XD Inc. and Adobe. Both reports have been published and can be accessed via the following links: [Report 1](https://mp.weixin.qq.com/s/Pv5NIkP6dBPXYtGkKbjc_g), [Report 2](https://mp.weixin.qq.com/s/J9Lpx7ozZGJ1SHuu0_f22w).
+I conducted equity research on <span style="color: var(--green);">gaming</span> and <span style="color: var(--green);">creative technology</span> companies, analyzing platform ecosystem flywheel effects in gaming and cloud transition strategies with AI integration impact in creative software. Research methodology combined hands-on product testing with competitive analysis.

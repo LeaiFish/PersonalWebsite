@@ -1,5 +1,5 @@
 ---
-date: '2025-07-13'
+date: '2025-07-17'
 title: 'Reading & Research'
 external: '#'
 tech:
